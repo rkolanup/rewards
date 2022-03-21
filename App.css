@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: #ccc;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.reward-table {
+  border: 2px solid #ccc;
+}
+.transaction-table {
+  width: 100%;
+}
+.reward-table th,
+.reward-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+.transaction-table th,
+.transaction-table td {
+  border: none;
+}
+.total-cell {
+  text-align: center !important;
+}
